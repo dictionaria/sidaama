@@ -1,0 +1,53 @@
+{
+    "authors": [
+        {"name": "Kjell Magne Yri", "affiliation": "University of Oslo"},
+        {"name": "Steve Pepper", "affiliation": "University of Oslo"}
+    ],
+    "language": {
+        "name": "Sidaama",
+        "isocode": "sid",
+        "glottocode": "sida1246"
+    },
+    "date_published": "2019",
+    "doi": "10.5281/zenodo.3338363",
+    "number": 6,
+    "properties": {
+        "marker_map": {
+            "ps_en": "ps",
+            "et_SidIPA": "et",
+            "xv_SidIPA": "xv",
+            "x_en": "xe",
+            "d_en": "de",
+            "lv": "cf"
+        },
+        "entry_map": {
+            "lc_Sid": "Official_Orthography",
+            "z0": "Construction",
+            "z10": "Type",
+            "z2": "Morphological_Structure",
+            "z3": "Morpheme_Breaks",
+            "z4": "Gloss"
+        },
+        "entry_custom_order": [
+            "Official_Orthography",
+            "Type",
+            "Construction",
+            "Morphological_Structure",
+            "Morpheme_Breaks",
+            "Gloss"
+        ],
+        "sense_map": {
+            "nt_en": "Comment"
+        },
+        "example_map": {
+            "z7": "Corpus_Reference"
+        },
+        "gloss_ref": "z8",
+        "metalanguages": {},
+        "labels": {
+            "z7": "Example Source"
+        },
+        "custom_fields": ["Type", "Official Orthography"],
+        "second_tab": ["Morpheme_Breaks", "Gloss"]
+    }
+}
