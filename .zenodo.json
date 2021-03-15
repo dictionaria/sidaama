@@ -1,0 +1,32 @@
+{
+    "title": "dictionaria/sidaama: Sidaama dictionary",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Dictionary",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Kjell Magne Yri"
+        },
+        {
+            "name": "Steve Pepper"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "clld"
+        },
+        {
+            "identifier": "dictionaria"
+        }
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "description": "Yri, Kjell Magne and Pepper, Steve. 2019. Sidaama dictionary. Dictionaria 6. 1-3578 (Available online at https://dictionaria.clld.org/contributions/sidaama)"
+}

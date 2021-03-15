@@ -3,11 +3,11 @@
 > by Kjell Magne Yri and Steve Pepper
 
 This repository contains the data underlying the published version of the dictionary
-at [Dictionaria](https://dictionaria.clld.org/contributions/sidaama) as [CLDF](https://cldf.clld.org) 
-[Dictionary](cldf) 
+at [Dictionaria](https://dictionaria.clld.org/contributions/sidaama) as [CLDF](https://cldf.clld.org)
+[Dictionary](cldf)
 [![CLDF validation](https://github.com/dictionaria/sidaama/workflows/CLDF-validation/badge.svg)](https://github.com/dictionaria/sidaama/actions?query=workflow%3ACLDF-validation)
 
-Releases of this repository are archived with and accessible through 
+Releases of this repository are archived with and accessible through
 [ZENODO](https://zenodo.org/communities/dictionaria) and the latest release
 is published on the [Dictionaria website](https://dictionaria.clld.org).
 
@@ -186,7 +186,7 @@ The vowel phonemes (short/long):
 <tr><td>w</td><td>w</td><td>ww</td><td>ww</td></tr>
 <tr><td>y</td><td>y</td><td>yy</td><td>yy</td></tr>
 <tr><td>ʔ</td><td>’ Ø ’’</td><td>ʔʔ</td><td>’</td></tr>
-<tr><td>h</td><td>h</td><td>hh<a data-toggle="tooltip" href="#" title="Only attested in ʔahahha 'grandfathers'."><sup>1</sup></a></td><td>hh</td></tr>
+<tr><td>h</td><td>h</td><td>hh<a data-toggle="tooltip" href="#ref1" id="1" title="Only attested in ʔahahha 'grandfathers'."><sup>1</sup></a></td><td>hh</td></tr>
 </tbody>
 </table>
 
@@ -243,7 +243,7 @@ This first version contains a mere 3900 entries, a trifle compared with the extr
 
 <h2 id="grammatical-sketch">Grammatical sketch of Sidaama</h2>
 
-The language is characterized by some syntactic idiosyncrasies that set it apart from the other Cushitic languages, while sharing nicely most of the typological features of the Cushitic described in Appleyard’s introduction to Cushitic in Edzard (ed.) (2012:199-211) . There is not much dialect variation, but speakers from the eastern highlands consider themselves to speak a purer Sidaama than speakers from the lowlands.<a data-toggle="tooltip" href="#" title="This chapter is an adaptation of my article in Edzard (ed.) 2012. The transcription system is not changed."><sup>2</sup></a>
+The language is characterized by some syntactic idiosyncrasies that set it apart from the other Cushitic languages, while sharing nicely most of the typological features of the Cushitic described in Appleyard’s introduction to Cushitic in Edzard (ed.) (2012:199-211) . There is not much dialect variation, but speakers from the eastern highlands consider themselves to speak a purer Sidaama than speakers from the lowlands.<a data-toggle="tooltip" href="#ref2" id="2" title="This chapter is an adaptation of my article in Edzard (ed.) 2012. The transcription system is not changed."><sup>2</sup></a>
 
 The consonant phonemes are b d j g t č k ɗ p’ t’ č’ k’ h ʔ m n ñ f s š  w l r y. Some geminated consonants have created transparency problems in the official orthography due to a big phonetic difference between some geminates and their simplex counterparts, notably the b (intervocalic realization [β], written &lt;w&gt;, geminated <bb>) and the ɗ (written &lt;‘r&gt; as simplex intervocalically and &lt;dh&gt; as geminated).
 
@@ -388,12 +388,12 @@ Jussive is characterized by the vowel óo. Negative jussive and imperative have 
 </thead>
 <tbody>
 <tr><td>JUS</td><td>-óo</td><td></td><td>-óo</td><td>-tóo</td><td>-nóo</td><td></td></tr>
-<tr><td>IMPER</td><td></td><td></td><td>-i</td><td></td><td>-Ce<a data-toggle="tooltip" href="#" title="This ‘C’ means ‘make a geminate by copying the final stem consonant, whatever it is’."><sup>3</sup></a></td><td></td></tr>
+<tr><td>IMPER</td><td></td><td></td><td>-i</td><td></td><td>-Ce<a data-toggle="tooltip" href="#ref3" id="3" title="This ‘C’ means ‘make a geminate by copying the final stem consonant, whatever it is’."><sup>3</sup></a></td><td></td></tr>
 <tr><td>NEG</td><td>-óónke</td><td>-tóóti</td><td>-óónke</td><td>–tóónke</td><td>-nóónke</td><td>-tinóónte</td></tr>
 </tbody>
 </table>
 
-The set of copulae is –ho (k) (u), -te (t) (u), -Vti (mod), and ʔikk- (in subordinate clauses). As can be appreciated, it is likely that the origin is demonstrative pronominal elements, but the relationship with the <span style="font-variant: small-caps">dat.u</span> and the gen.u.t suffixes is not obvious. If the <span style="font-variant: small-caps">pred</span> is an adjective, the class of the subject noun governs the choice of copula. If the <span style="font-variant: small-caps">pred</span> is a noun, the class of this noun governs the choice between –ho and –te if it is not modified, in which case the copula is –Vti<a data-toggle="tooltip" href="#" title="This ‘V’ means ‘make a long vowel out of the final vowel of  the word, whatever it is’."><sup>4</sup></a>, e.g. ʔanna-ʔya-ati “It is my father”. Modification as factor in triggering concord is thus seen in the copula system and in case inflection. Predication of existence and location is achieved by nó “be, exist, live” (heeɗ- in subordinate clauses). Possession is expressed with this verb and a “recipient” that is frequently expressed both as a participant in <span style="font-variant: small-caps">dat</span> and an object suffix on the verb in the same sentence: ʔanera minu nooʔe “to me a house exists me” → “I have a house”.
+The set of copulae is –ho (k) (u), -te (t) (u), -Vti (mod), and ʔikk- (in subordinate clauses). As can be appreciated, it is likely that the origin is demonstrative pronominal elements, but the relationship with the <span style="font-variant: small-caps">dat.u</span> and the gen.u.t suffixes is not obvious. If the <span style="font-variant: small-caps">pred</span> is an adjective, the class of the subject noun governs the choice of copula. If the <span style="font-variant: small-caps">pred</span> is a noun, the class of this noun governs the choice between –ho and –te if it is not modified, in which case the copula is –Vti<a data-toggle="tooltip" href="#ref4" id="4" title="This ‘V’ means ‘make a long vowel out of the final vowel of  the word, whatever it is’."><sup>4</sup></a>, e.g. ʔanna-ʔya-ati “It is my father”. Modification as factor in triggering concord is thus seen in the copula system and in case inflection. Predication of existence and location is achieved by nó “be, exist, live” (heeɗ- in subordinate clauses). Possession is expressed with this verb and a “recipient” that is frequently expressed both as a participant in <span style="font-variant: small-caps">dat</span> and an object suffix on the verb in the same sentence: ʔanera minu nooʔe “to me a house exists me” → “I have a house”.
 
 Secondary finite verb paradigms have developed from various subordinate forms: A “person inflected infinitive” (pinf) with <span style="font-variant: small-caps">dat</span> case ending (-ra) signals “purpose” and forms a subordinate clause: ros-ammo-ra “in order for me to learn (it)”. Add to that the <span style="font-variant: small-caps">cop.m</span> (-Vti) and you get a finite “immediate future”: ros-ammó-ra-ati “I am about to learn (it)”. Another semi-nominal form, the “participle” (<span style="font-variant: small-caps">ptcpl</span>) only occurs with the <span style="font-variant: small-caps">abl</span> (-nni) case suffix; with the appropriate form of the verb nó “is, exists” used as auxiliary it is finite and signals progressive or continuous action; without nó it is subordinate and means “while …”: ros-á-nni “while I am/he was learning (it)..”; ros-á-nni noommo “I am learning (it)”. The <span style="font-variant: small-caps">cvb</span> paradigm is characterized by the vowel /e/. Replace the /e/ with /a/, and you have the paradigm of the <span style="font-variant: small-caps">ptcpl</span>. The <span style="font-variant: small-caps">cvb</span> followed by the auxiliary nó conveys a pluperfect meaning: haɗé nó “he had gone”.  Finally Sidaama has a subordinate hypothetical conditional paradigm characterized by –o..e (-ro “if”) or e..e (-ro “if”): haʔnommero “if we had gone ..(but we did not)”. The following is a summary of the subordinate paradigms:
 
@@ -444,7 +444,7 @@ Sidaama or Sidaamu afó, also erroneously called Sidamo in the literature, is sp
 
 The language is described as belonging to the branch of Cushitic languages which is called Highland East Cushitic, comprising also e.g. Gedeo, Burji, and Konso.
 
-With the change of government in 1991 new borders and new names were put on the map. The Sidaama<a data-toggle="tooltip" href="#ref1" id="1" title="The Sidama themselves, represented by Beetaanna Hott’eesso (1983 E.C:47-8), insist that Sidaama is the name of both the area and the people, and that Sidamo is a name only used by those who do not know the language."><sup>1</sup></a> area is now part of the SNNPR, the Southern Nations, Nationalities, and Peoples’ Region, a region which borders on Kenya and Sudan in the south-_west_, Gambella in the north-_west_, and the new scattered region of Oromia to the north and east.
+With the change of government in 1991 new borders and new names were put on the map. The Sidaama<a data-toggle="tooltip" href="#ref5" id="5" title="The Sidama themselves, represented by Beetaanna Hott’eesso (1983 E.C:47-8), insist that Sidaama is the name of both the area and the people, and that Sidamo is a name only used by those who do not know the language."><sup>5</sup></a> area is now part of the SNNPR, the Southern Nations, Nationalities, and Peoples’ Region, a region which borders on Kenya and Sudan in the south-_west_, Gambella in the north-_west_, and the new scattered region of Oromia to the north and east.
 
 <h3 id="way-of-life">Way of life</h3>
 
@@ -650,7 +650,7 @@ The consonant phonemes:
 
 All consonant phonemes may be geminated. In the underlying data /h/ has been found as geminated in only one word _ʔahahha_ ‘grandfathers’. Word medially, /p’, ɲ/ and /y/ are always geminated.
 
-The vowel phonemes (short/long):<a data-toggle="tooltip" href="#ref2" id="2" title="The traditional Sidaama orthography convention of writing long vowels as well as geminated consonants as aa kk etc. has been adhered to throughout."><sup>2</sup></a>
+The vowel phonemes (short/long):<a data-toggle="tooltip" href="#ref6" id="6" title="The traditional Sidaama orthography convention of writing long vowels as well as geminated consonants as aa kk etc. has been adhered to throughout."><sup>6</sup></a>
 <table class="table table-bordered" style="width:200px" table=""><tbody>
 <tr class="odd">
 <td></td>
@@ -1175,7 +1175,7 @@ Below follow some examples of the nominatives and the genitives of K-class nouns
 <td>-<span style="font-variant: small-caps">nom</span>.<span style="font-variant: small-caps">u </span></td>
 <td>meat</td>
 <td>-<span style="font-variant: small-caps">acc</span></td>
-<td>wasa<a data-toggle="tooltip" href="#ref3" id="3" title="The staple food of the Sidaama, made from the processed pulp of the ensete edulis. The word will be used as a loanword in English, because any translation will be cumbersome."><sup>3</sup></a></td>
+<td>wasa<a data-toggle="tooltip" href="#ref7" id="7" title="The staple food of the Sidaama, made from the processed pulp of the ensete edulis. The word will be used as a loanword in English, because any translation will be cumbersome."><sup>7</sup></a></td>
 <td>-<span style="font-variant: small-caps">gen</span>.<span style="font-variant: small-caps">u</span></td>
 <td>  company</td>
 <td>  add</td>
@@ -1529,7 +1529,7 @@ The following example shows the unmodified T-class noun as a genitive attribute:
 <td>-a </td>
 <td>sok</td>
 <td>-nóónni</td>
-<td>-hu<a data-toggle="tooltip" href="#ref4" id="4" title="In the morphological analysis, the morphs are shown in their form prior to metathesis for clarity. This word is to be read /sonkóónnihu/."><sup>4</sup></a></td>
+<td>-hu<a data-toggle="tooltip" href="#ref8" id="8" title="In the morphological analysis, the morphs are shown in their form prior to metathesis for clarity. This word is to be read /sonkóónnihu/."><sup>8</sup></a></td>
 <td>mam</td>
 <td>-í</td>
 <td>-nni</td>
@@ -1931,7 +1931,7 @@ Maybe under influence of the Amharic _lä_+infinitive, e.g. _lä-mäflät’_ �
 <td>kaal</td>
 <td>-ɗ</td>
 <td>-itannó</td>
-<td>-se<a data-toggle="tooltip" href="#ref5" id="5" title="With reduction and metathesis of the ɗ: kaaʔlitannose."><sup>5</sup></a></td>
+<td>-se<a data-toggle="tooltip" href="#ref9" id="9" title="With reduction and metathesis of the ɗ: kaaʔlitannose."><sup>9</sup></a></td>
 </tr>
 </thead>
 <tbody>
@@ -1969,7 +1969,7 @@ Maybe under influence of the Amharic _lä_+infinitive, e.g. _lä-mäflät’_ �
 <td>-ɗ</td>
 <td>-a</td>
 <td>-<strong>té</strong></td>
-<td>-nna<a data-toggle="tooltip" href="#ref6" id="6" title="rɗ &gt;ɗɗ"><sup>6</sup></a></td>
+<td>-nna<a data-toggle="tooltip" href="#ref10" id="10" title="rɗ &gt;ɗɗ"><sup>10</sup></a></td>
 </tr>
 </thead>
 <tbody>
@@ -2009,7 +2009,7 @@ Maybe under influence of the Amharic _lä_+infinitive, e.g. _lä-mäflät’_ �
 <tbody>
 <tr class="odd">
 <td>cereal</td>
-<td>-<span style="font-variant: small-caps">acc</span>.<span style="font-variant: small-caps">gen</span><a data-toggle="tooltip" href="#ref7" id="7" title="The genitive -te is omitted because a -te follows in the next word, although with another meaning. Alternative analysis: the two words form a compound without -te."><sup>7</sup></a> </td>
+<td>-<span style="font-variant: small-caps">acc</span>.<span style="font-variant: small-caps">gen</span><a data-toggle="tooltip" href="#ref11" id="11" title="The genitive -te is omitted because a -te follows in the next word, although with another meaning. Alternative analysis: the two words form a compound without -te."><sup>11</sup></a> </td>
 <td>tray</td>
 <td>-<span style="font-variant: small-caps">acc</span></td>
 <td>-<span style="font-variant: small-caps">obl</span>(<strong>for</strong>) </td>
@@ -2103,7 +2103,7 @@ Waa ‘water’ is one of the few nouns which are never marked for the differenc
 <td>-ɗ</td>
 <td>-annó</td>
 <td>-nsa</td>
-<td>-ha<a data-toggle="tooltip" href="#ref8" id="8" title="Pronounced kaaʔlánnonsaha"><sup>8</sup></a> </td>
+<td>-ha<a data-toggle="tooltip" href="#ref12" id="12" title="Pronounced kaaʔlánnonsaha"><sup>12</sup></a> </td>
 <td>ros</td>
 <td>-sannó</td>
 </tr>
@@ -2136,7 +2136,7 @@ Waa ‘water’ is one of the few nouns which are never marked for the differenc
 <td>-<strong>ra</strong> </td>
 <td>hagiir</td>
 <td>-n</td>
-<td>-é<a data-toggle="tooltip" href="#ref9" id="9" title="Pronounced hagiirréé"><sup>9</sup></a> </td>
+<td>-é<a data-toggle="tooltip" href="#ref13" id="13" title="Pronounced hagiirréé"><sup>13</sup></a> </td>
 <td>ʔa</td>
 <td>-annó </td>
 </tr>
@@ -2247,7 +2247,7 @@ In the construction which expresses that somebody owns something, it is common t
 <td>-i </td>
 <td>farad</td>
 <td>-ʃ</td>
-<td>-ó<a data-toggle="tooltip" href="#ref10" id="10" title="Pronounced faraʃʃó"><sup>10</sup></a> </td>
+<td>-ó<a data-toggle="tooltip" href="#ref14" id="14" title="Pronounced faraʃʃó"><sup>14</sup></a> </td>
 <td>báátt</td>
 <td>-o</td>
 <td>-te</td>
@@ -2468,7 +2468,7 @@ This suffix is probably the most recent of the case endings, since it can be tra
 <td>-é </td>
 <td>duk</td>
 <td>-ɗ</td>
-<td>-é<a data-toggle="tooltip" href="#ref11" id="11" title="Pronounced dukk’é"><sup>11</sup></a> </td>
+<td>-é<a data-toggle="tooltip" href="#ref15" id="15" title="Pronounced dukk’é"><sup>15</sup></a> </td>
 <td>da</td>
 <td>-í</td>
 </tr>
@@ -3186,7 +3186,7 @@ The agreement between subject and verb in the 3<sup>rd</sup> person mainly follo
 <td>-<strong>óót</strong></td>
 <td>-u </td>
 <td>lob</td>
-<td>-ɗ<a data-toggle="tooltip" href="#ref12" id="12" title="Pronounced lopp’éénna"><sup>12</sup></a></td>
+<td>-ɗ<a data-toggle="tooltip" href="#ref16" id="16" title="Pronounced lopp’éénna"><sup>16</sup></a></td>
 <td>-<strong>é</strong></td>
 <td>-enna] </td>
 <td>hirtú</td>
@@ -3514,7 +3514,7 @@ The independent possessive pronouns are used to highlight a certain owner among 
 <td><strong>ʔisí</strong> </td>
 <td>farád</td>
 <td>-ʃ</td>
-<td>-o<a data-toggle="tooltip" href="#ref13" id="13" title="Pronounced faráʃʃo"><sup>13</sup></a> </td>
+<td>-o<a data-toggle="tooltip" href="#ref17" id="17" title="Pronounced faráʃʃo"><sup>17</sup></a> </td>
 <td>ʔikk</td>
 <td>-inó</td>
 <td>-ta </td>
@@ -3649,7 +3649,7 @@ The notion of ‘self’ and ‘own’ is expressed, like in Amharic, with the n
 </tbody>
 </table>
 
-All the ones listed here except the ‘vocative’ are frequent modifiers of nouns<a data-toggle="tooltip" href="#ref14" id="14" title="As attributes they are frequent in such expressions as kó mánco ‘hey there, man’ and té béétto ‘you girl there’. "><sup>14</sup></a>. All of them can function nominally in core functions.
+All the ones listed here except the ‘vocative’ are frequent modifiers of nouns<a data-toggle="tooltip" href="#ref18" id="18" title="As attributes they are frequent in such expressions as kó mánco ‘hey there, man’ and té béétto ‘you girl there’. "><sup>18</sup></a>. All of them can function nominally in core functions.
 
 With the appropriate basic case stem, they can be inflected for oblique cases. The suffixes  
 _-ba_, _-ho_, and _-te_ are very infrequent. Some examples with the suffixes _-nni_ ‘from’, _-ra_ ‘to’:
@@ -3961,7 +3961,7 @@ While definiteness is left unexpressed in prototypical nouns, the numerals funct
 Examples of quantifier adjectives with suffix: _duuccá-nka_ ‘all’ and _woʔmá-nka_ ‘all’. This family of suffixes separates the quantifiers from prototypical adjectives. The two quantifiers mentioned here are different from the numerals semantically, in that there is an element of definiteness about them with or without _-nka_ etc., and they would normally be used to describe participants that have already been introduced into the discourse.
 
 <h3 id="nominalizers">Nominalizers</h3>
-<a data-toggle="tooltip" href="#ref15" id="15" title="Called ‘relative pronouns’ by Hudson 1976:260"><sup>15</sup></a>What is not morphologically already a nominal, i.e. noun, pronoun, or infinitive, can be nominalized by means of the nominalizing suffixes below. They apply e.g. to adjectives, verbs, and clauses. The ones which begin in -n, like _-nku_ etc. apply to quantifiers.
+<a data-toggle="tooltip" href="#ref19" id="19" title="Called ‘relative pronouns’ by Hudson 1976:260"><sup>19</sup></a>What is not morphologically already a nominal, i.e. noun, pronoun, or infinitive, can be nominalized by means of the nominalizing suffixes below. They apply e.g. to adjectives, verbs, and clauses. The ones which begin in -n, like _-nku_ etc. apply to quantifiers.
 
 <br/>
 <table class="table table-bordered" style="width:400px" table=""><thead>
@@ -4177,7 +4177,7 @@ _borr-_ ‘to be engraved’, _borr-__eess__-_ ‘to engrave, to write’
 
 _k’itt’-aab-_ ‘to be prepared’, _k’itt’-__eess__-_ ‘to prepare’
 
-_wodan_<a data-toggle="tooltip" href="#ref16" id="16" title="wodana (K) ‘heart’"><sup>16</sup></a>_-aab-_ ‘to be thoughtful’, _wodan-__eess__-_ ‘to make someone thoughtful’
+_wodan_<a data-toggle="tooltip" href="#ref20" id="20" title="wodana (K) ‘heart’"><sup>20</sup></a>_-aab-_ ‘to be thoughtful’, _wodan-__eess__-_ ‘to make someone thoughtful’
 
 _beh-aab-_ ‘to recover’, _beh-__eess__-_ ‘to help to recover’
 
@@ -5820,7 +5820,7 @@ The same construction may mean ‘up to (a certain level)’ as in the following
 <td>howol</td>
 <td>-ó </td>
 <td>guggul</td>
-<td>-ʃ<a data-toggle="tooltip" href="#ref17" id="17" title="ls &gt; lʃ &gt; ʃʃ"><sup>17</sup></a></td>
+<td>-ʃ<a data-toggle="tooltip" href="#ref21" id="21" title="ls &gt; lʃ &gt; ʃʃ"><sup>21</sup></a></td>
 <td>-á </td>
 <td>gééʃʃ</td>
 <td>-a</td>
@@ -6041,7 +6041,7 @@ For all other tenses, modes, and derivations _heeɗ-_ only is used. _heeɗ-_ is 
 <td>-u </td>
 <td>ʔil</td>
 <td>-am</td>
-<td>-áá<a data-toggle="tooltip" href="#ref18" id="18" title="-áá = á-nni"><sup>18</sup></a> </td>
+<td>-áá<a data-toggle="tooltip" href="#ref22" id="22" title="-áá = á-nni"><sup>22</sup></a> </td>
 <td>heeɗ</td>
 <td>-é</td>
 <td>-nni </td>
@@ -6915,7 +6915,7 @@ If the predicative is an adjective, the class membership of the subject selects 
 
 (107) Adjective as PRED:
 
-<p style="color: #3a87ad; margin-left:30px"><i>hákk-u dúll-i</i></p></bb> (K) <i>dánca-<b>ho</b></i> ‘That stick is good’
+<p style="color: #3a87ad; margin-left:30px"><i>hákk-u dúll-i (K) <i>dánca-<b>ho</b></i> ‘That stick is good’</i></p>
 <p style="color: #3a87ad; margin-left:30px"><i>tín-i midáán-o</i> (T) <i>dánca-<b>te</b></i> ‘This cooking pot is good’</p>
 
 Noun as PRED:
@@ -7914,7 +7914,7 @@ The Passive works more or less like in English; the subject specifies the patien
 <td>fan</td>
 <td>-ɗ</td>
 <td>-<strong>ám</strong></td>
-<td>-a<a data-toggle="tooltip" href="#ref19" id="19" title="Realized as faʔnama. See under phonology ‘the autobenefactive suffix’. For the structure of the predicative, see also above under ‘copula’."><sup>19</sup></a> </td>
+<td>-a<a data-toggle="tooltip" href="#ref23" id="23" title="Realized as faʔnama. See under phonology ‘the autobenefactive suffix’. For the structure of the predicative, see also above under ‘copula’."><sup>23</sup></a> </td>
 <td>dandii</td>
 <td>-tannó</td>
 <td>-*ta</td>
@@ -8146,9 +8146,9 @@ In the following example there are seemingly two objects, where one (the second)
 <td>[[ʔaf</td>
 <td>-iɗ</td>
 <td>-nó</td>
-<td>-ha<a data-toggle="tooltip" href="#ref20" id="20" title="Pronounced ʔafiʔnóha."><sup>20</sup></a> </td>
+<td>-ha<a data-toggle="tooltip" href="#ref24" id="24" title="Pronounced ʔafiʔnóha."><sup>24</sup></a> </td>
 <td>tuk’</td>
-<td>-k’<a data-toggle="tooltip" href="#ref21" id="21" title="*tug ‘throw’ -ɗ (AB) &gt; tuk’-k’ &gt; ‘throw in one’s own interest’"><sup>21</sup></a></td>
+<td>-k’<a data-toggle="tooltip" href="#ref25" id="25" title="*tug ‘throw’ -ɗ (AB) &gt; tuk’-k’ &gt; ‘throw in one’s own interest’"><sup>25</sup></a></td>
 <td>-inó]</td>
 <td>-ha] </td>
 <td>‘ʃáʃ</td>
@@ -8566,7 +8566,7 @@ These are constructed the same way as conditional clauses, but the suffix _-no_ 
 <table style="color: #3a87ad; margin-left:30px">
 <thead>
 <tr class="header" style="font-style:italic;">
-<td>‘haraʔm<a data-toggle="tooltip" href="#ref22" id="22" title="The root of this verb is *haram-, not occurring on its own, but attested as haran-s- (TR) ‘shorten’ and haran co DER.SGLT ‘short’ (ADJ) both with PoA assimilation. Here haram-ɗ- (AB) ‘be short’ with reduction and metathesis: *haram-ɗ- &gt; *haramʔ- &gt; haraʔm-."><sup>22</sup></a></td>
+<td>‘haraʔm<a data-toggle="tooltip" href="#ref26" id="26" title="The root of this verb is *haram-, not occurring on its own, but attested as haran-s- (TR) ‘shorten’ and haran co DER.SGLT ‘short’ (ADJ) both with PoA assimilation. Here haram-ɗ- (AB) ‘be short’ with reduction and metathesis: *haram-ɗ- &gt; *haramʔ- &gt; haraʔm-."><sup>26</sup></a></td>
 <td>-úmmo</td>
 <td>-ro</td>
 <td>-no </td>
@@ -8754,7 +8754,7 @@ Another possibility is the suffixes _-kki_ ‘subordinate negative’ together w
 <td>-átt</td>
 <td>-o </td>
 <td>ʔaf</td>
-<td>-nóónni<a data-toggle="tooltip" href="#ref23" id="23" title="The two verbs are pronounced with metathesis: ʔanfikkinni and ʔanfoonni."><sup>23</sup></a></td>
+<td>-nóónni<a data-toggle="tooltip" href="#ref27" id="27" title="The two verbs are pronounced with metathesis: ʔanfikkinni and ʔanfoonni."><sup>27</sup></a></td>
 </tr>
 </thead>
 <tbody>
@@ -9051,7 +9051,7 @@ However, Sidaama also expresses this notion with the noun _gedénsa_ ‘afternes
 <table style="color: #3a87ad; margin-left:30px">
 <thead>
 <tr class="header" style="font-style:italic;">
-<td>[mimmit<a data-toggle="tooltip" href="#ref24" id="24" title="mito ‘one’ with reduplication: mim-mito."><sup>24</sup></a></td>
+<td>[mimmit<a data-toggle="tooltip" href="#ref28" id="28" title="mito ‘one’ with reduplication: mim-mito."><sup>28</sup></a></td>
 <td>-ó </td>
 <td>keer</td>
 <td>-é </td>
@@ -9214,10 +9214,10 @@ The noun _daafo_ ‘cause’, with or without the _-ra_ suffix, with an attribut
 <table style="color: #3a87ad; margin-left:30px">
 <thead>
 <tr class="header" style="font-style:italic;">
-<td>[loonsái<a data-toggle="tooltip" href="#ref25" id="25" title="&lt; loos-nánni"><sup>25</sup></a> </td>
+<td>[loonsái<a data-toggle="tooltip" href="#ref29" id="29" title="&lt; loos-nánni"><sup>29</sup></a> </td>
 <td>gara </td>
 <td>ʔegenn</td>
-<td>-tió<a data-toggle="tooltip" href="#ref26" id="26" title="-tió &lt; -tinó"><sup>26</sup></a> </td>
+<td>-tió<a data-toggle="tooltip" href="#ref30" id="30" title="-tió &lt; -tinó"><sup>30</sup></a> </td>
 <td>mánn</td>
 <td>-i </td>
 <td>nó] </td>
@@ -10578,7 +10578,7 @@ Finally a more complicated example of this type:
 <thead>
 <tr class="header" style="font-style:italic;">
 <td>[[‘kalak’</td>
-<td>-am<a data-toggle="tooltip" href="#ref27" id="27" title="The word represents a frequent type of nominalization, viz. INF = N. The addition of INF -a to the derived PAS verb stem kalak’-am- forms both the verbal ‘to create’ (T) and the abstract noun ‘creation, nature’ (K). This is an occurrence of the latter, inflected in GEN.U."><sup>27</sup></a></td>
+<td>-am<a data-toggle="tooltip" href="#ref31" id="31" title="The word represents a frequent type of nominalization, viz. INF = N. The addition of INF -a to the derived PAS verb stem kalak’-am- forms both the verbal ‘to create’ (T) and the abstract noun ‘creation, nature’ (K). This is an occurrence of the latter, inflected in GEN.U."><sup>31</sup></a></td>
 <td>-ú </td>
 <td>jíro</td>
 <td>-oti’] </td>
@@ -11804,31 +11804,35 @@ My sincere gratitude to the Leipzig-based Dictionaria Project, that undertook to
 
 
 <h2 id="footnotes">Footnotes</h2>
-<a href="#1" id="ref1"><sup>1</sup></a> The Sidama themselves, represented by Beetaanna Hott’eesso (1983 E.C:47-8), insist that Sidaama is the name of both the area and the people, and that Sidamo is a name only used by those who do not know the language.<br/>
-<a href="#2" id="ref2"><sup>2</sup></a> The traditional Sidaama orthography convention of writing long vowels as well as geminated consonants as <i>aa kk</i> etc. has been adhered to throughout.<br/>
-<a href="#3" id="ref3"><sup>3</sup></a> The staple food of the Sidaama, made from the processed pulp of the <i>ensete edulis</i>. The word will be used as a loanword in English, because any translation will be cumbersome.<br/>
-<a href="#4" id="ref4"><sup>4</sup></a> In the morphological analysis, the morphs are shown in their form prior to metathesis for clarity. This word is to be read /so<b>nk</b>óónnihu/.<br/>
-<a href="#5" id="ref5"><sup>5</sup></a> With reduction and metathesis of the <i>ɗ: kaaʔlitannose</i>.<br/>
-<a href="#6" id="ref6"><sup>6</sup></a> <i>rɗ &gt;ɗɗ</i>.<br/>
-<a href="#7" id="ref7"><sup>7</sup></a> The genitive <i>-te</i> is omitted because a <i>-te</i> follows in the next word, although with another meaning. Alternative analysis: the two words form a compound without <i>-te</i>.<br/>
-<a href="#8" id="ref8"><sup>8</sup></a> Pronounced <i>kaaʔlánnonsaha</i>.<br/>
-<a href="#9" id="ref9"><sup>9</sup></a> Pronounced <i>hagiirré</i>.<br/>
-<a href="#10" id="ref10"><sup>10</sup></a> Pronounced <i>faraʃʃó</i>.<br/>
-<a href="#11" id="ref11"><sup>11</sup></a> Pronounced <i>dukk’é</i>.<br/>
-<a href="#12" id="ref12"><sup>12</sup></a> Pronounced <i>lopp’éénna</i>.<br/>
-<a href="#13" id="ref13"><sup>13</sup></a> Pronounced <i>faráʃʃo</i>.<br/>
-<a href="#14" id="ref14"><sup>14</sup></a> As attributes they are frequent in such expressions as <i>kó mánco</i> ‘hey there, man’ and <i>té béétto</i> ‘you girl there’.<br/>
-<a href="#15" id="ref15"><sup>15</sup></a> Called ‘relative pronouns’ by Hudson 1976:260.<br/>
-<a href="#16" id="ref16"><sup>16</sup></a> <i>wodana</i> (K) ‘heart’.<br/>
-<a href="#17" id="ref17"><sup>17</sup></a> <i>ls</i> &gt; <i>lʃ</i> &gt; <i>ʃʃ</i>.<br/>
-<a href="#18" id="ref18"><sup>18</sup></a> <i>-áá = á-nni</i><br/>
-<a href="#19" id="ref19"><sup>19</sup></a> Realized as <i>faʔnama</i>. See under phonology ‘the autobenefactive suffix’. For the structure of the predicative, see also above under ‘copula’.<br/>
-<a href="#20" id="ref20"><sup>20</sup></a> Pronounced <i>ʔafiʔnóha</i>.<br/>
-<a href="#21" id="ref21"><sup>21</sup></a> *<i>tug</i> ‘throw’ <i>-ɗ</i> (AB) &gt; <i>tuk’-k’</i> &gt; ‘throw in one’s own interest’.<br/>
-<a href="#22" id="ref22"><sup>22</sup></a> The root of this verb is *<i>haram</i>-, not occurring on its own, but attested as <i>haran-s-</i> (TR) ‘shorten’ and <i>haran co</i> DER.SGLT ‘short’ (ADJ) both with PoA assimilation. Here <i>haram-ɗ-</i> (AB) ‘be short’ with reduction and metathesis: *<i>haram-ɗ-</i> &gt; *<i>haramʔ-</i> &gt; <i>haraʔm-</i>.<br/>
-<a href="#23" id="ref23"><sup>23</sup></a> The two verbs are pronounced with metathesis: <i>ʔanfikkinni</i> and <i>ʔanfoonni</i>.<br/>
-<a href="#24" id="ref24"><sup>24</sup></a> <i>mito</i> ‘one’ with reduplication: <i>mim-mito</i>.<br/>
-<a href="#25" id="ref25"><sup>25</sup></a> &lt; <i>loos-nánni</i>.<br/>
-<a href="#26" id="ref26"><sup>26</sup></a> <i>tió</i> &lt; <i>-tinó</i>.<br/>
-<a href="#27" id="ref27"><sup>27</sup></a> The word represents a frequent type of nominalization, viz. INF = N. The addition of INF <i>-a</i> to the derived PAS verb stem <i>kalak’-am-</i> forms both the verbal ‘to create’ (T) and the abstract noun ‘creation, nature’ (K). This is an occurrence of the latter, inflected in GEN.U.
-
+<a href="#1" id="ref1"><sup>1</sup></a> Only attested in <i>ʔahahha</i> «grandfathers».<br/>
+<a href="#2" id="ref2"><sup>2</sup></a> This chapter is an adaptation of my article in Edzard (ed.) 2012. The transcription system is not changed.<br/>
+<a href="#3" id="ref3"><sup>3</sup></a> This ‘C’ means ‘make a geminate by copying the final stem consonant, whatever it is’<br/>
+<a href="#4" id="ref4"><sup>4</sup></a> This ‘V’ means ‘make a long vowel out of the final vowel of the word, whatever it is’.<br/>
+<a href="#5" id="ref5"><sup>5</sup></a> The Sidama themselves, represented by Beetaanna Hott’eesso (1983 E.C:47-8), insist that Sidaama is the name of both the area and the people, and that Sidamo is a name only used by those who do not know the language.<br/>
+<a href="#6" id="ref6"><sup>6</sup></a> The traditional Sidaama orthography convention of writing long vowels as well as geminated consonants as <i>aa kk</i> etc. has been adhered to throughout.<br/>
+<a href="#7" id="ref7"><sup>7</sup></a> The staple food of the Sidaama, made from the processed pulp of the <i>ensete edulis</i>. The word will be used as a loanword in English, because any translation will be cumbersome.<br/>
+<a href="#8" id="ref8"><sup>8</sup></a> In the morphological analysis, the morphs are shown in their form prior to metathesis for clarity. This word is to be read /so<b>nk</b>óónnihu/.<br/>
+<a href="#9" id="ref9"><sup>9</sup></a> With reduction and metathesis of the <i>ɗ: kaaʔlitannose</i>.<br/>
+<a href="#10" id="ref10"><sup>10</sup></a> <i>rɗ &gt;ɗɗ</i>.<br/>
+<a href="#11" id="ref11"><sup>11</sup></a> The genitive <i>-te</i> is omitted because a <i>-te</i> follows in the next word, although with another meaning. Alternative analysis: the two words form a compound without <i>-te</i>.<br/>
+<a href="#12" id="ref12"><sup>12</sup></a> Pronounced <i>kaaʔlánnonsaha</i>.<br/>
+<a href="#13" id="ref13"><sup>13</sup></a> Pronounced <i>hagiirré</i>.<br/>
+<a href="#14" id="ref14"><sup>14</sup></a> Pronounced <i>faraʃʃó</i>.<br/>
+<a href="#15" id="ref15"><sup>15</sup></a> Pronounced <i>dukk’é</i>.<br/>
+<a href="#16" id="ref16"><sup>16</sup></a> Pronounced <i>lopp’éénna</i>.<br/>
+<a href="#17" id="ref17"><sup>17</sup></a> Pronounced <i>faráʃʃo</i>.<br/>
+<a href="#18" id="ref18"><sup>18</sup></a> As attributes they are frequent in such expressions as <i>kó mánco</i> ‘hey there, man’ and <i>té béétto</i> ‘you girl there’.<br/>
+<a href="#19" id="ref19"><sup>19</sup></a> Called ‘relative pronouns’ by Hudson 1976:260.<br/>
+<a href="#20" id="ref20"><sup>20</sup></a> <i>wodana</i> (K) ‘heart’.<br/>
+<a href="#21" id="ref21"><sup>21</sup></a> <i>ls</i> &gt; <i>lʃ</i> &gt; <i>ʃʃ</i>.<br/>
+<a href="#22" id="ref22"><sup>22</sup></a> <i>-áá = á-nni</i><br/>
+<a href="#23" id="ref23"><sup>23</sup></a> Realized as <i>faʔnama</i>. See under phonology ‘the autobenefactive suffix’. For the structure of the predicative, see also above under ‘copula’.<br/>
+<a href="#24" id="ref24"><sup>24</sup></a> Pronounced <i>ʔafiʔnóha</i>.<br/>
+<a href="#25" id="ref25"><sup>25</sup></a> *<i>tug</i> ‘throw’ <i>-ɗ</i> (AB) &gt; <i>tuk’-k’</i> &gt; ‘throw in one’s own interest’.<br/>
+<a href="#26" id="ref26"><sup>26</sup></a> The root of this verb is *<i>haram</i>-, not occurring on its own, but attested as <i>haran-s-</i> (TR) ‘shorten’ and <i>haran co</i> DER.SGLT ‘short’ (ADJ) both with PoA assimilation. Here <i>haram-ɗ-</i> (AB) ‘be short’ with reduction and metathesis: *<i>haram-ɗ-</i> &gt; *<i>haramʔ-</i> &gt; <i>haraʔm-</i>.<br/>
+<a href="#27" id="ref27"><sup>27</sup></a> The two verbs are pronounced with metathesis: <i>ʔanfikkinni</i> and <i>ʔanfoonni</i>.<br/>
+<a href="#28" id="ref28"><sup>28</sup></a> <i>mito</i> ‘one’ with reduplication: <i>mim-mito</i>.<br/>
+<a href="#29" id="ref29"><sup>29</sup></a> &lt; <i>loos-nánni</i>.<br/>
+<a href="#30" id="ref30"><sup>30</sup></a> <i>tió</i> &lt; <i>-tinó</i>.<br/>
+<a href="#31" id="ref31"><sup>31</sup></a> The word represents a frequent type of nominalization, viz. INF = N. The addition of INF <i>-a</i> to the derived PAS verb stem <i>kalak’-am-</i> forms both the verbal ‘to create’ (T) and the abstract noun ‘creation, nature’ (K). This is an occurrence of the latter, inflected in GEN.U.
+</bb>
