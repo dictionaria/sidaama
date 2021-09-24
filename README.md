@@ -6915,7 +6915,7 @@ If the predicative is an adjective, the class membership of the subject selects 
 
 (107) Adjective as PRED:
 
-<p style="color: #3a87ad; margin-left:30px"><i>hákk-u dúll-i (K) <i>dánca-<b>ho</b></i> ‘That stick is good’</i></p>
+<p style="color: #3a87ad; margin-left:30px"><i>hákk-u dúll-i</i></p></bb> (K) <i>dánca-<b>ho</b></i> ‘That stick is good’
 <p style="color: #3a87ad; margin-left:30px"><i>tín-i midáán-o</i> (T) <i>dánca-<b>te</b></i> ‘This cooking pot is good’</p>
 
 Noun as PRED:
@@ -11835,4 +11835,4 @@ My sincere gratitude to the Leipzig-based Dictionaria Project, that undertook to
 <a href="#29" id="ref29"><sup>29</sup></a> &lt; <i>loos-nánni</i>.<br/>
 <a href="#30" id="ref30"><sup>30</sup></a> <i>tió</i> &lt; <i>-tinó</i>.<br/>
 <a href="#31" id="ref31"><sup>31</sup></a> The word represents a frequent type of nominalization, viz. INF = N. The addition of INF <i>-a</i> to the derived PAS verb stem <i>kalak’-am-</i> forms both the verbal ‘to create’ (T) and the abstract noun ‘creation, nature’ (K). This is an occurrence of the latter, inflected in GEN.U.
-</bb>
+
